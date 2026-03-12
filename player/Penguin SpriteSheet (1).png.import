@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1736dyaojmnd"
-path="res://.godot/imported/snow tileset.png-5b8d3ca4a40f26acab214f3bbef3acd2.ctex"
+uid="uid://cbukfdoaiy7gj"
+path="res://.godot/imported/Penguin SpriteSheet (1).png-dab706f0d0bf4a085f9bd358a281cb55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tileset/snow tileset.png"
-dest_files=["res://.godot/imported/snow tileset.png-5b8d3ca4a40f26acab214f3bbef3acd2.ctex"]
+source_file="res://player/Penguin SpriteSheet (1).png"
+dest_files=["res://.godot/imported/Penguin SpriteSheet (1).png-dab706f0d0bf4a085f9bd358a281cb55.ctex"]
 
 [params]
 

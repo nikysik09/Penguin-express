@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1736dyaojmnd"
-path="res://.godot/imported/snow tileset.png-5b8d3ca4a40f26acab214f3bbef3acd2.ctex"
+uid="uid://bp12to2lipawx"
+path="res://.godot/imported/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2).png-f8a09f0bceb563ce4ee4bd076c80480d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tileset/snow tileset.png"
-dest_files=["res://.godot/imported/snow tileset.png-5b8d3ca4a40f26acab214f3bbef3acd2.ctex"]
+source_file="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2).png"
+dest_files=["res://.godot/imported/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2).png-f8a09f0bceb563ce4ee4bd076c80480d.ctex"]
 
 [params]
 
