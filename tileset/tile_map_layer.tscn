@@ -4,6 +4,7 @@
 [ext_resource type="TileSet" uid="uid://8lsc5h4ce58e" path="res://tileset/new_tile_set.tres" id="1_uuaxm"]
 [ext_resource type="Texture2D" uid="uid://c0483geiopqcs" path="res://tileset/output_tileset.png" id="1_vqaso"]
 [ext_resource type="Texture2D" uid="uid://cc7fs8j1lkmjx" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2) (1).png" id="4_ltoay"]
+[ext_resource type="Script" uid="uid://dfqcb14c28auk" path="res://tileset/character_body_2d.gd" id="4_mummm"]
 [ext_resource type="Texture2D" uid="uid://bp12to2lipawx" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2).png" id="5_mummm"]
 [ext_resource type="Texture2D" uid="uid://cbukfdoaiy7gj" path="res://player/Penguin SpriteSheet (1).png" id="6_ivwfi"]
 [ext_resource type="Texture2D" uid="uid://dhwu4mw0paxeu" path="res://player/Penguin SpriteSheet (1) – копія.png" id="7_8h1jw"]
@@ -3709,6 +3710,7 @@ tile_map_data = PackedByteArray("AAAGAA4AAQAhAAQAAAAGAA8AAQAhAAUAAAAHAA4AAQAiAAQ
 tile_set = SubResource("TileSet_bik5n")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=513873972]
+script = ExtResource("4_mummm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=356410567]
 sprite_frames = SubResource("SpriteFrames_tiuxo")
