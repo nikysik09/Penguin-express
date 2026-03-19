@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cc7fs8j1lkmjx" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2) (1).png" id="4_ltoay"]
 [ext_resource type="Script" uid="uid://dfqcb14c28auk" path="res://tileset/character_body_2d.gd" id="4_mummm"]
 [ext_resource type="Texture2D" uid="uid://bp12to2lipawx" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_back._It_should_still_be_t-0 (2).png" id="5_mummm"]
+[ext_resource type="Texture2D" uid="uid://cau0n5g6nfjho" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_looking_forward._It_should-0 (3) (1).png" id="6_8h1jw"]
 [ext_resource type="Texture2D" uid="uid://cbukfdoaiy7gj" path="res://player/Penguin SpriteSheet (1).png" id="6_ivwfi"]
 [ext_resource type="Texture2D" uid="uid://dhwu4mw0paxeu" path="res://player/Penguin SpriteSheet (1) – копія.png" id="7_8h1jw"]
 
@@ -403,7 +404,9 @@ texture_region_size = Vector2i(24, 24)
 24:8/0 = 0
 25:8/0 = 0
 27:8/0 = 0
+27:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:8/0 = 0
+28:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 29:8/0 = 0
 30:8/0 = 0
 31:8/0 = 0
@@ -453,7 +456,9 @@ texture_region_size = Vector2i(24, 24)
 24:9/0 = 0
 25:9/0 = 0
 27:9/0 = 0
+27:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:9/0 = 0
+28:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 29:9/0 = 0
 30:9/0 = 0
 31:9/0 = 0
@@ -502,7 +507,9 @@ texture_region_size = Vector2i(24, 24)
 24:10/0 = 0
 25:10/0 = 0
 27:10/0 = 0
+27:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:10/0 = 0
+28:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:10/0 = 0
 32:10/0 = 0
 33:10/0 = 0
@@ -550,7 +557,9 @@ texture_region_size = Vector2i(24, 24)
 24:11/0 = 0
 25:11/0 = 0
 27:11/0 = 0
+27:11/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:11/0 = 0
+28:11/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:11/0 = 0
 32:11/0 = 0
 33:11/0 = 0
@@ -736,7 +745,9 @@ texture_region_size = Vector2i(24, 24)
 24:15/0 = 0
 25:15/0 = 0
 27:15/0 = 0
+27:15/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:15/0 = 0
+28:15/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:15/0 = 0
 32:15/0 = 0
 33:15/0 = 0
@@ -773,7 +784,9 @@ texture_region_size = Vector2i(24, 24)
 23:16/0 = 0
 25:16/0 = 0
 27:16/0 = 0
+27:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:16/0 = 0
+28:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:16/0 = 0
 32:16/0 = 0
 33:16/0 = 0
@@ -815,7 +828,9 @@ texture_region_size = Vector2i(24, 24)
 24:17/0 = 0
 25:17/0 = 0
 27:17/0 = 0
+27:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:17/0 = 0
+28:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:17/0 = 0
 32:17/0 = 0
 33:17/0 = 0
@@ -852,7 +867,9 @@ texture_region_size = Vector2i(24, 24)
 23:18/0 = 0
 25:18/0 = 0
 27:18/0 = 0
+27:18/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 28:18/0 = 0
+28:18/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 31:18/0 = 0
 32:18/0 = 0
 33:18/0 = 0
@@ -1073,6 +1090,7 @@ texture_region_size = Vector2i(24, 24)
 25:24/0 = 0
 27:24/0 = 0
 28:24/0 = 0
+28:24/0/physics_layer_0/polygon_0/points = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 30:24/0 = 0
 31:24/0 = 0
 32:24/0 = 0
@@ -3574,29 +3592,77 @@ terrain_set_0/terrain_1/color = Color(0.18726847, 0.4570315, 0.71178854, 1)
 sources/4 = SubResource("TileSetAtlasSource_vjcy3")
 sources/1 = SubResource("TileSetAtlasSource_c3an2")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivwfi"]
+atlas = ExtResource("5_mummm")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h1jw"]
+atlas = ExtResource("5_mummm")
+region = Rect2(96, 32, 32, 32)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_xlyvf"]
-atlas = ExtResource("4_ltoay")
-region = Rect2(32, 32, 32, 32)
+atlas = ExtResource("5_mummm")
+region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7xxcy"]
-atlas = ExtResource("4_ltoay")
-region = Rect2(64, 32, 32, 32)
+atlas = ExtResource("5_mummm")
+region = Rect2(0, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8ccxd"]
-atlas = ExtResource("4_ltoay")
-region = Rect2(96, 32, 32, 32)
+atlas = ExtResource("5_mummm")
+region = Rect2(32, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pi4nn"]
 atlas = ExtResource("5_mummm")
-region = Rect2(96, 32, 32, 32)
+region = Rect2(64, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s60ed"]
-atlas = ExtResource("5_mummm")
-region = Rect2(96, 0, 32, 32)
+atlas = ExtResource("6_8h1jw")
+region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fwoju"]
-atlas = ExtResource("5_mummm")
-region = Rect2(64, 0, 32, 32)
+atlas = ExtResource("6_8h1jw")
+region = Rect2(32, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uwckk"]
+atlas = ExtResource("6_8h1jw")
+region = Rect2(64, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgxvk"]
+atlas = ExtResource("6_ivwfi")
+region = Rect2(128, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a7hq7"]
+atlas = ExtResource("6_ivwfi")
+region = Rect2(96, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmvvy"]
+atlas = ExtResource("6_ivwfi")
+region = Rect2(64, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnlj7"]
+atlas = ExtResource("7_8h1jw")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jnmn7"]
+atlas = ExtResource("7_8h1jw")
+region = Rect2(32, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mehl5"]
+atlas = ExtResource("7_8h1jw")
+region = Rect2(64, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5wge4"]
+atlas = ExtResource("4_ltoay")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mt6q7"]
+atlas = ExtResource("4_ltoay")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wv0oa"]
+atlas = ExtResource("4_ltoay")
+region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j7omy"]
 atlas = ExtResource("6_ivwfi")
@@ -3634,31 +3700,87 @@ region = Rect2(96, 32, 32, 32)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xlyvf")
+"texture": SubResource("AtlasTexture_ivwfi")
 }, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h1jw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlyvf")
+}],
+"loop": true,
+"name": &"back",
+"speed": 10.0
+}, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7xxcy")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8ccxd")
-}],
-"loop": true,
-"name": &"back",
-"speed": 5.0
 }, {
-"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pi4nn")
+}],
+"loop": true,
+"name": &"fall_back",
+"speed": 3.0
 }, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s60ed")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fwoju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uwckk")
+}],
+"loop": true,
+"name": &"fall_front",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgxvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a7hq7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qmvvy")
+}],
+"loop": true,
+"name": &"fall_left",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vnlj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jnmn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mehl5")
+}],
+"loop": true,
+"name": &"fall_right",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5wge4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mt6q7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wv0oa")
 }],
 "loop": true,
 "name": &"front",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -3675,7 +3797,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"left",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -3692,7 +3814,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"right",
-"speed": 5.0
+"speed": 10.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0x87u"]
@@ -3710,13 +3832,17 @@ tile_map_data = PackedByteArray("AAAGAA4AAQAhAAQAAAAGAA8AAQAhAAUAAAAHAA4AAQAiAAQ
 tile_set = SubResource("TileSet_bik5n")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=513873972]
+position = Vector2(210.2949, 275.64722)
 script = ExtResource("4_mummm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=356410567]
+position = Vector2(3.5764446, -2.0318184)
 sprite_frames = SubResource("SpriteFrames_tiuxo")
-animation = &"right"
+animation = &"back"
+frame_progress = 0.3914077
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1110888758]
 shape = SubResource("CapsuleShape2D_0x87u")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1677107391]
+position = Vector2(-0.3576444, 1.3545318)
