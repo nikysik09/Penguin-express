@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://cau0n5g6nfjho" path="res://player/gemini-2.5-flash-image_Generate_exactly_the_same_images_but_with_the_penguin_looking_forward._It_should-0 (3) (1).png" id="6_8h1jw"]
 [ext_resource type="Texture2D" uid="uid://cbukfdoaiy7gj" path="res://player/Penguin SpriteSheet (1).png" id="6_ivwfi"]
 [ext_resource type="Texture2D" uid="uid://dhwu4mw0paxeu" path="res://player/Penguin SpriteSheet (1) – копія.png" id="7_8h1jw"]
+[ext_resource type="PackedScene" uid="uid://brfsl0tmtx5sp" path="res://timelabel/time_label.tscn" id="11_xlyvf"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vqaso"]
 
@@ -3846,3 +3847,4 @@ shape = SubResource("CapsuleShape2D_0x87u")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1677107391]
 position = Vector2(-0.3576444, 1.3545318)
+[node name="TimeLabel" parent="." unique_id=788310569 instance=ExtResource("11_xlyvf")]
