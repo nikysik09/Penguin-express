@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://udpndl4t66uu"]
+
+[ext_resource type="Script" uid="uid://bdhphntqru5hi" path="res://menu/menu.gd" id="1_g18jx"]
+[ext_resource type="Texture2D" uid="uid://cbf5fbcu08cg8" path="res://menu/ping.jpg" id="1_j0t7f"]
+[ext_resource type="Texture2D" uid="uid://c06is3iy3poky" path="res://menu/penguin.png" id="4_pbjm4"]
+[ext_resource type="Texture2D" uid="uid://ciowsk6sqv8nd" path="res://menu/express-logo.png" id="4_svuvw"]
+
+[node name="menu" type="CanvasLayer" unique_id=2059326002]
+script = ExtResource("1_g18jx")
+
+[node name="Ping" type="Sprite2D" parent="." unique_id=1679443948]
+position = Vector2(581, 326)
+scale = Vector2(1.5727891, 1.5707318)
+texture = ExtResource("1_j0t7f")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1200635540]
+offset_left = 427.0
+offset_top = 348.0
+offset_right = 708.0
+offset_bottom = 487.0
+
+[node name="start" type="Button" parent="VBoxContainer" unique_id=38803748]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+text = "Start"
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=1951565483]
+layout_mode = 2
+
+[node name="setting" type="Button" parent="VBoxContainer" unique_id=747913315]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+text = "Setting"
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer" unique_id=1659680805]
+layout_mode = 2
+
+[node name="Exit" type="Button" parent="VBoxContainer" unique_id=583797699]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+text = "Exit
+"
+
+[node name="Penguin" type="Sprite2D" parent="." unique_id=450937173]
+position = Vector2(553, 204)
+scale = Vector2(0.39337873, 0.3023952)
+texture = ExtResource("4_pbjm4")
+
+[node name="ExpressLogo" type="Sprite2D" parent="." unique_id=1941833010]
+position = Vector2(765, 295)
+scale = Vector2(0.14344253, 0.13615018)
+texture = ExtResource("4_svuvw")
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/setting" to="." method="_on_setting_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]
