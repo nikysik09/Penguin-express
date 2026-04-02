@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://brfsl0tmtx5sp"]
 
-[ext_resource type="Script" uid="uid://robj6w4u05i1" path="res://time_label.gd" id="1_xcsgw"]
+[ext_resource type="Script" uid="uid://robj6w4u05i1" path="res://timelabel/time_label.gd" id="1_xcsgw"]
+[ext_resource type="FontFile" uid="uid://c008jlifnomb6" path="res://font.ttf" id="2_kcvd6"]
 
 [node name="TimeLabel" type="CanvasLayer" unique_id=788310569]
 script = ExtResource("1_xcsgw")
@@ -9,6 +10,7 @@ script = ExtResource("1_xcsgw")
 offset_right = 40.0
 offset_bottom = 23.0
 theme_override_colors/font_color = Color(0.13333334, 0.13725491, 0.45490196, 1)
+theme_override_fonts/font = ExtResource("2_kcvd6")
 theme_override_font_sizes/font_size = 25
 text = "00:00"
 

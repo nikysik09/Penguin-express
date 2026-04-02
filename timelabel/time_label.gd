@@ -1,27 +1,22 @@
 extends CanvasLayer
 
-# Змінні для підрахунку часу
 var time_passed: int = 0
 var is_active: bool = true
 
-# Посилання на вузли. 
-# ПЕРЕВІРТЕ: назви після знака $ мають бути ТАКИМИ Ж, як у дереві сцени зліва!
+
 @onready var timer_label: Label = $TimerLabel
 @onready var stopwatch_timer: Timer = $TimerLabel/StopwatchTimer
 
 func _ready():
-	# Перевірка на помилку null instance прямо при запуску
 	if stopwatch_timer == null:
 		print("ПОМИЛКА: Вузол StopwatchTimer не знайдено! Перевірте назву в дереві сцени.")
 		return
 	
 	update_timer_display()
 	
-	# Налаштовуємо таймер, якщо забули в інспекторі
 	stopwatch_timer.wait_time = 1.0
 	stopwatch_timer.autostart = true
 	
-	# Підключаємо сигнал
 	if not stopwatch_timer.timeout.is_connected(_on_timer_timeout):
 		stopwatch_timer.timeout.connect(_on_timer_timeout)
 	
@@ -36,10 +31,8 @@ func update_timer_display():
 	if timer_label:
 		var minutes = time_passed / 60
 		var seconds = time_passed % 60
-		# Форматуємо у вигляд 00:00
 		timer_label.text = "%02d:%02d" % [minutes, seconds]
 
-# Функції для керування таймером (можна викликати з скрипту паузи)
 func stop_timer():
 	is_active = false
 	stopwatch_timer.stop()
