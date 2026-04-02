@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bdhphntqru5hi" path="res://menu/menu.gd" id="1_g18jx"]
 [ext_resource type="Texture2D" uid="uid://cbf5fbcu08cg8" path="res://menu/ping.jpg" id="1_j0t7f"]
+[ext_resource type="FontFile" uid="uid://c008jlifnomb6" path="res://font.ttf" id="3_svuvw"]
 [ext_resource type="Texture2D" uid="uid://c06is3iy3poky" path="res://menu/penguin.png" id="4_pbjm4"]
 [ext_resource type="Texture2D" uid="uid://ciowsk6sqv8nd" path="res://menu/express-logo.png" id="4_svuvw"]
 
@@ -22,6 +23,7 @@ offset_bottom = 487.0
 [node name="start" type="Button" parent="VBoxContainer" unique_id=38803748]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+theme_override_fonts/font = ExtResource("3_svuvw")
 text = "Start"
 
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=1951565483]
@@ -30,6 +32,7 @@ layout_mode = 2
 [node name="setting" type="Button" parent="VBoxContainer" unique_id=747913315]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+theme_override_fonts/font = ExtResource("3_svuvw")
 text = "Setting"
 
 [node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer" unique_id=1659680805]
@@ -38,6 +41,8 @@ layout_mode = 2
 [node name="Exit" type="Button" parent="VBoxContainer" unique_id=583797699]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.6666667, 0.8901961, 0.9372549, 1)
+theme_override_fonts/font = ExtResource("3_svuvw")
+theme_override_font_sizes/font_size = 16
 text = "Exit
 "
 
