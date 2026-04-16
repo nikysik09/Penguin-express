@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c2gbo76u3fakn"]
+
+[ext_resource type="Script" uid="uid://cb85enqh573w4" path="res://general/audio_controller.gd" id="1_0jxab"]
+[ext_resource type="AudioStream" uid="uid://dgllajh15tj86" path="res://general/music.mp3" id="2_gcsoj"]
+
+[node name="AudioController" type="Node" unique_id=485506812]
+script = ExtResource("1_0jxab")
+
+[node name="music winter" type="AudioStreamPlayer" parent="." unique_id=1042630216]
+stream = ExtResource("2_gcsoj")
+autoplay = true
