@@ -1,12 +1,17 @@
 extends CharacterBody2D
 
 @onready var sprite = $AnimatedSprite2D
+func _ready() -> void:
 
-# Налаштування швидкості
-@export var MIN_SPEED: float = 300.0
+	
+	if Global.player_position != Vector2.ZERO:
+		global_position = Global.player_position
+		print("Пінгвін повернувся на позицію: ", global_position)
+		
+@export var MIN_SPEED: float = 200.0
 @export var TOP_SPEED: float = 600.0 
 @export var ACCEL: float = 2.0
-@export var FRICTION: float = 1.5
+@export var FRICTION: float = 1.0
 @export var TIME_FOR_MAX_SPEED: float = 100.0
 
 var current_max_speed = 100.0
