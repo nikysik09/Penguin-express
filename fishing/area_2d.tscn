@@ -1,0 +1,250 @@
+[gd_scene format=3 uid="uid://cjn116jfx7glp"]
+
+[ext_resource type="Script" uid="uid://cuqxrrahh5n8q" path="res://fishing/area_2d.gd" id="1_kdg3l"]
+[ext_resource type="Texture2D" uid="uid://d0by8crontiql" path="res://fishing/фон.jpg" id="2_ynvhx"]
+[ext_resource type="Texture2D" uid="uid://dii5vg6vdfrtu" path="res://fishing/Причал.png" id="3_w6s02"]
+[ext_resource type="Texture2D" uid="uid://b438aevwt476" path="res://fishing/sea.png" id="4_5v2ou"]
+[ext_resource type="FontFile" uid="uid://c008jlifnomb6" path="res://general/font.ttf" id="5_bhw7g"]
+[ext_resource type="Texture2D" uid="uid://bnc3yn6bfgr61" path="res://fishing/Пінгвін з вудкою.png" id="6_bhw7g"]
+[ext_resource type="Texture2D" uid="uid://bsjd6fcpgyn58" path="res://fishing/деревина.jpg" id="7_7ukdr"]
+[ext_resource type="Script" uid="uid://brir0rq8pcggb" path="res://fishing/fishing_mini_game.gd" id="7_djf8f"]
+[ext_resource type="Texture2D" uid="uid://bbpv0rkqsss6h" path="res://fishing/SlimSlider_Background.png" id="8_qeby2"]
+[ext_resource type="Texture2D" uid="uid://den01ofcp1wf5" path="res://fishing/SlimSlider_Base.png" id="9_djf8f"]
+[ext_resource type="PackedScene" uid="uid://buugwieyt4e6t" path="res://fishing/fish.tscn" id="10_puya1"]
+[ext_resource type="PackedScene" uid="uid://xbonfkv0lddf" path="res://fishing/target.tscn" id="11_qeby2"]
+[ext_resource type="Texture2D" uid="uid://wacruq8i10xa" path="res://fishing/кнопка вліво.png" id="11_ynvhx"]
+[ext_resource type="Texture2D" uid="uid://busmj0coii1o6" path="res://fishing/кнопка вниз.png" id="12_w6s02"]
+[ext_resource type="Texture2D" uid="uid://cjpgc1h5ia1q8" path="res://fishing/кнопка вправо.png" id="13_5v2ou"]
+[ext_resource type="Texture2D" uid="uid://cp0511duepjao" path="res://fishing/кнопка прямо.png" id="16_hxsq6"]
+[ext_resource type="AudioStream" uid="uid://cyvoe5710wm4" path="res://fishing/the sound of the sea.mp3" id="17_w6s02"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hxsq6"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(0, 0, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5r3jw"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(230, 0, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3iti3"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(460, 0, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m1bk5"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(0, 120, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltl1n"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(230, 120, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ttff"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(460, 120, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qj4i1"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(0, 240, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uwkpd"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(230, 240, 230, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e31bs"]
+atlas = ExtResource("4_5v2ou")
+region = Rect2(460, 240, 230, 120)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_djf8f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hxsq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5r3jw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3iti3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m1bk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltl1n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ttff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qj4i1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uwkpd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e31bs")
+}],
+"loop": true,
+"name": &"sea",
+"speed": 1.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_es5t7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_djf8f"]
+atlas = ExtResource("6_bhw7g")
+region = Rect2(784, 209, 196, 209)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_puya1"]
+atlas = ExtResource("6_bhw7g")
+region = Rect2(784, 0, 196, 209)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_80kog"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_djf8f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_puya1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_80kog"]
+texture = ExtResource("7_7ukdr")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_msos7"]
+texture = ExtResource("8_qeby2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ynvhx"]
+texture = ExtResource("9_djf8f")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w6s02"]
+bg_color = Color(0.37103415, 0.6413271, 0.75616145, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.63407415, 0.9494398, 1.2502502, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="Area2D" type="Area2D" unique_id=112325058]
+script = ExtResource("1_kdg3l")
+
+[node name="Фон" type="Sprite2D" parent="." unique_id=1511577303]
+position = Vector2(562, 308)
+texture = ExtResource("2_ynvhx")
+
+[node name="Причал" type="Sprite2D" parent="." unique_id=1121297149]
+position = Vector2(1055, 508)
+scale = Vector2(2.0451806, 1.1814815)
+texture = ExtResource("3_w6s02")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1273934928]
+position = Vector2(532, 551.2185)
+scale = Vector2(6.2025323, 3.6869748)
+sprite_frames = SubResource("SpriteFrames_djf8f")
+animation = &"sea"
+autoplay = "sea"
+frame_progress = 0.03202478
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1978435939]
+shape = SubResource("CircleShape2D_es5t7")
+
+[node name="exit" type="Button" parent="." unique_id=2060530202]
+offset_left = 11.0
+offset_top = 7.0
+offset_right = 109.0
+offset_bottom = 43.0
+theme_override_fonts/font = ExtResource("5_bhw7g")
+text = "Exit"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1957055627]
+position = Vector2(828.00006, 411)
+scale = Vector2(0.84183675, 0.9019139)
+sprite_frames = SubResource("SpriteFrames_80kog")
+autoplay = "default"
+frame_progress = 0.8652187
+
+[node name="FishingMiniGame" type="CanvasLayer" parent="." unique_id=195674690]
+process_mode = 3
+script = ExtResource("7_djf8f")
+
+[node name="FishingGame" type="Control" parent="FishingMiniGame" unique_id=1672490741]
+custom_minimum_size = Vector2(600, 450)
+layout_mode = 3
+anchors_preset = 0
+offset_left = 40.0
+offset_top = 68.0
+offset_right = 640.0
+offset_bottom = 518.0
+
+[node name="PanelContainer" type="PanelContainer" parent="FishingMiniGame/FishingGame" unique_id=923894815]
+custom_minimum_size = Vector2(600, 450)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_80kog")
+
+[node name="MarginContainer" type="MarginContainer" parent="FishingMiniGame/FishingGame/PanelContainer" unique_id=2091532228]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer" unique_id=977091368]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=1310536752]
+layout_mode = 2
+
+[node name="CatchBar" type="ProgressBar" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=1504499458]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxTexture_msos7")
+theme_override_styles/fill = SubResource("StyleBoxTexture_ynvhx")
+show_percentage = false
+
+[node name="AquaContainer" type="PanelContainer" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=951660838]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_w6s02")
+
+[node name="КнопкаВліво" type="Sprite2D" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=1800786359]
+position = Vector2(746, 136)
+texture = ExtResource("11_ynvhx")
+
+[node name="КнопкаВниз" type="Sprite2D" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=1462825378]
+position = Vector2(840, 136)
+texture = ExtResource("12_w6s02")
+
+[node name="КнопкаВправо" type="Sprite2D" parent="FishingMiniGame/FishingGame/PanelContainer/MarginContainer/VBoxContainer" unique_id=1056381790]
+position = Vector2(933, 136)
+texture = ExtResource("13_5v2ou")
+
+[node name="Fish" parent="FishingMiniGame/FishingGame" unique_id=58639556 node_paths=PackedStringArray("aquaContainer") instance=ExtResource("10_puya1")]
+position = Vector2(261.41077, 197.1995)
+aquaContainer = NodePath("../PanelContainer/MarginContainer/VBoxContainer/AquaContainer")
+
+[node name="Target" parent="FishingMiniGame/FishingGame" unique_id=492202447 instance=ExtResource("11_qeby2")]
+position = Vector2(266, 200)
+
+[node name="КнопкаПрямо" type="Sprite2D" parent="." unique_id=1198154904]
+position = Vector2(890, 126)
+texture = ExtResource("16_hxsq6")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1028995452]
+stream = ExtResource("17_w6s02")
+autoplay = true
+
+[connection signal="button_up" from="exit" to="." method="_on_exit_button_up"]
+[connection signal="target_entered" from="FishingMiniGame/FishingGame/Target" to="FishingMiniGame" method="_on_target_target_entered"]
+[connection signal="target_exited" from="FishingMiniGame/FishingGame/Target" to="FishingMiniGame" method="_on_target_target_exited"]

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://xbonfkv0lddf"]
+
+[ext_resource type="Script" uid="uid://dmg2mdyeqou1v" path="res://target.gd" id="1_e1yvt"]
+[ext_resource type="Texture2D" uid="uid://ck5ediy7f3ur0" path="res://fishing/crosshair026.png" id="2_5ebp1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uqips"]
+size = Vector2(54.5, 54.5)
+
+[node name="Target" type="Area2D" unique_id=492202447]
+script = ExtResource("1_e1yvt")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1468177510]
+position = Vector2(0.9999981, -1.0000019)
+scale = Vector2(1.2638888, 1.2638888)
+texture = ExtResource("2_5ebp1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1301333844]
+position = Vector2(0.75, -0.25)
+shape = SubResource("RectangleShape2D_uqips")
